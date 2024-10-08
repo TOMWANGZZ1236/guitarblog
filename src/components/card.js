@@ -7,7 +7,7 @@ import './card.css'
 const Card = (props) => {
 
     const openPdf = () => {
-        window.open(props.pdfAddress);
+        window.open(process.env.PUBLIC_URL + (props.pdfAddress));
     }
     return (
         <div className='tc bg-light-green br3 pa3 ma2 dib bw2 shadow-5' onClick = {openPdf}>
