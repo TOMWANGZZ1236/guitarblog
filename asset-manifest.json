@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/guitarblog/static/css/main.9e1d4244.css",
-    "main.js": "/guitarblog/static/js/main.0b76666a.js",
+    "main.js": "/guitarblog/static/js/main.f72adefd.js",
     "static/js/453.9fdbf2a9.chunk.js": "/guitarblog/static/js/453.9fdbf2a9.chunk.js",
     "static/media/EduAUVICWANTDots-VariableFont_wght.ttf": "/guitarblog/static/media/EduAUVICWANTDots-VariableFont_wght.9bec5ca77ae222aa8fbd.ttf",
     "index.html": "/guitarblog/index.html",
     "main.9e1d4244.css.map": "/guitarblog/static/css/main.9e1d4244.css.map",
-    "main.0b76666a.js.map": "/guitarblog/static/js/main.0b76666a.js.map",
+    "main.f72adefd.js.map": "/guitarblog/static/js/main.f72adefd.js.map",
     "453.9fdbf2a9.chunk.js.map": "/guitarblog/static/js/453.9fdbf2a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e1d4244.css",
-    "static/js/main.0b76666a.js"
+    "static/js/main.f72adefd.js"
   ]
 }
