@@ -12,11 +12,11 @@ const Card = (props) => {
     return (
         <div className='tc bg-light-green br3 pa3 ma2 dib bw2 shadow-5' onClick = {openPdf}>
             <h1>{props.id}</h1>
-            <img alt = "musicsheet" src = {props.imageAddress} width = '200' height = '300' /> 
+            <img alt = "musicsheet" src = {process.env.PUBLIC_URL + (props.imageAddress)} width = '200' height = '300' /> 
             <p>
                 {props.musicName}
             </p>
-            <YoutubeIcon youtubeAddress = {props.youtubeAddress}/>
+            <YoutubeIcon youtubeAddress = {(props.youtubeAddress)}/>
         </div>
     );
 }

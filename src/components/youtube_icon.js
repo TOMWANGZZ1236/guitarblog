@@ -8,7 +8,7 @@ const YoutubeIcon = (props) => {
     }
     return (
     <div onClick = {openYoutube} className = "youtubeIconContainer">
-        <img alt = "youtubeicon" src = '/assets/icons/youtubeIcon.png' width = '40' height = '40' /> 
+        <img alt = "youtubeicon" src = {process.env.PUBLIC_URL + '/assets/icons/youtubeIcon.png'} width = '40' height = '40' /> 
     </div>
     )
 }
