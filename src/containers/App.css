@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'fav';
+    src: url(../../public/assets/fonts/EduAUVICWANTDots-VariableFont_wght.ttf) format('truetype');
+    font-weight: 700;
+  }
+
+
+body {
+  margin: 0; 
+}
+input {
+  margin-bottom: 20px;
+}
+
+
+h1, h2 {
+    font-family: 'fav';
+  }
+code {
+    font-family: 'fav';
+}
